@@ -1,0 +1,86 @@
+[
+  {
+    "title": "Meets Up",
+    "desc": "Frontend project",
+    "live": "https://meetsup-deepak-parmar.vercel.app/",
+    "bgImg": "wingman.png",
+    "tools": [
+      "Next.js",
+      "Bootstrap"
+    ]
+  },
+  {
+    "title": "Wingman",
+    "desc": "Bootstrap Theme Landing Page Clone",
+    "live": "https://wingman.deepakparmar.repl.co/",
+    "source": "https://replit.com/@DeepakParmar/wingman/",
+    "bgImg": "wingman.png",
+    "tools": [
+      "Bootstrap",
+      "Replit"
+    ]
+  },
+  {
+    "title": "Portfolio Site",
+    "desc": "Personal portfolio site",
+    "bgImg": "wingman.png",
+    "tools": [
+      "Tailwind CSS",
+      "React",
+      "Vite"
+    ]
+  },
+  {
+    "title": "Her",
+    "desc": "Film website",
+    "live": "https://her-the-movie.deepakparmar.repl.co/",
+    "source": "https://replit.com/@DeepakParmar/her-the-movie/",
+    "bgImg": "her.png",
+    "bgPosition": "top",
+    "tools": [
+      "HTML",
+      "CSS",
+      "Replit"
+    ]
+  },
+  {
+    "title": "Queez",
+    "desc": "OpenTDb API powered quiz web app W.I.P",
+    "live": "https://deepak-parmar.github.io/queez/",
+    "source": "https://github.com/deepak-parmar/queez/",
+    "bgImg": "queez.png",
+    "bgPosition": "top",
+    "tools": [
+      "Bootstrap",
+      "Sass",
+      "JavaScript",
+      "OpenTDb API"
+    ]
+  },
+  {
+    "title": "EDUctiv",
+    "desc": "Article Publishing Platform",
+    "live": "https://deepak-parmar.000webhostapp.com/eductiv/",
+    "source": "https://github.com/deepak-parmar/eductiv/",
+    "bgImg": "eductiv.png",
+    "bgPosition": "top",
+    "tools": [
+      "Sass",
+      "jQuery",
+      "Vibrant.js",
+      "PHP",
+      "MySQL"
+    ]
+  },
+  {
+    "title": "UiDigital Marketing",
+    "desc": "Landing page (design by instagram/johnnycreated)",
+    "live": "https://deepak-parmar.github.io/uidigital-landing-page/",
+    "source": "https://github.com/deepak-parmar/uidigital-landing-page/",
+    "bgImg": "uidigital.png",
+    "bgPosition": "bottom",
+    "tools": [
+      "Tailwind CSS"
+    ]
+  }
+]
