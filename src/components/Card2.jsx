@@ -68,9 +68,9 @@ export default function Card(props) {
 }
 
 function CardLink(props) {
-  const iconUrl = `/icons/${
-    props.type == "live" ? "arrow-up-right" : "code"
-  }.svg`;
+  // const iconUrl = `/icons/${
+  //   props.type == "live" ? "arrow-up-right" : "code"
+  // }.svg`;
 
   const label =
     props.type == "live"
@@ -88,9 +88,9 @@ function CardLink(props) {
       title={label}
       role="link"
       aria-label={label}
-      style={{
-        background: `url(${iconUrl}) no-repeat center center`,
-      }}
+      // style={{
+      //   background: `url(${iconUrl}) no-repeat center center`,
+      // }}
     />
   );
 }
