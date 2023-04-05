@@ -6,11 +6,11 @@ const base = "/refactored-goggles/"
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={base}>
       <Routes>
         <Route element={<Layout />}>
-          <Route path={base} element={<Work />} />
-          <Route path={base + "contact"} element={<Contact />} />
+          <Route path="/" element={<Work />} />
+          <Route path="contact" element={<Contact />} />
         </Route>
       </Routes>
     </BrowserRouter>
