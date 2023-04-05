@@ -8,7 +8,7 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route element={<Layout />}>
-          <Route path="/" element={<Work />} />
+          <Route path="/refactored-goggles/" element={<Work />} />
           <Route path="contact" element={<Contact />} />
         </Route>
       </Routes>
