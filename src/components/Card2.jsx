@@ -68,11 +68,14 @@ export default function Card(props) {
 }
 
 function CardLink(props) {
-
   const label =
     props.type == "live"
       ? `Visit ${props.label} live`
       : `View ${props.label} source code`;
+
+  const iconUrl = `${import.meta.env.BASE_URL}icons/${
+    props.type == "live" ? "arrow-up-right" : "code"
+  }.svg`;
 
   const classes =
     "w-10 h-10 flex justify-center items-center transition-[border] border border-transparent hover:border-white/50 focus:bg-white/10";
@@ -86,9 +89,7 @@ function CardLink(props) {
       role="link"
       aria-label={label}
       style={{
-        background: `url(/refactored-goggles/icons/${
-          props.type == "live" ? "arrow-up-right" : "code"
-        }.svg) no-repeat center center`,
+        background: `url(${iconUrl}) no-repeat center center`,
       }}
     />
   );
